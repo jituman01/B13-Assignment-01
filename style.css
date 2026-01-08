@@ -1,4 +1,4 @@
-#{
+*  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,11 +7,13 @@
   font-family: "font-inter",sans-serif;
   font-optical-sizing: auto;
 }
+/* navbar style */
 .navbar-section{
   background-color:#FFFFFF ;
   display: flex;
   align-items: center;
   position: sticky;
+  margin-bottom: 16px;
 }
 .navbar-section .navbar-container{
   max-width: 1600px;
@@ -54,5 +56,100 @@
   text-decoration: none;
   list-style: none;
 }
+/* banner style */
+  #banner{
+    max-width: 1600px;
+    height: 674px;
+    position: relative;
+    background-image: url(".//assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #banner .banner-content{
+    max-width: 1360px;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .banner-title{
+    max-width: 770px;
+    height: 168px;
+    margin: 0 auto;
+  }
+  .banner-title h1{
+    font-size:  72px; 
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 84px;
+    margin-bottom:16px;
+  }
+  .banner-content h1 .color-green{
+    color:#30B868 ;
+  }
+  .access-btn{
+    margin: 0 auto;
+    max-width: 229px;
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    display: inline-flex;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom:16px ;
+  }
 
+  .access-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .access-btn .access-container .circle{
+    width: 16px;
+    height: 16px ;
+    background-color: #469165;
+    border-radius: 50%;
+  }
 
+  .banner-title p{
+    max-width: 1360px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 24px;
+    color:#FFFFFF ;
+    margin-bottom:32px ;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .button a{
+    text-decoration: none;
+    list-style: line;
+    border: none;
+    border-radius:4px ;
+  }
+  .button .start-btn{
+    color:#FFFFFF ;
+    font-size: 16px;
+    font-weight:600 ;
+    background-color: #469165;
+    padding: 16px 16px;
+  }
+  
+  .button .see-btn{
+    width: 198px;
+    color:#FFFFFF ;
+    font-size: 16px;
+    font-weight:600 ;
+    border: 1px solid #FFFFFF;
+    padding: 16px 16px;
+  }
+  
